@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Goal: Implementing Landing Page Design
 
-First, run the development server:
+The goal of this task is to implement a landing page design from Figma. You can find the design in [this Figma link](https://www.figma.com/file/RLLyYyRsth2grVPjAVLbCB/Website-Design?type=design&node-id=0-1&mode=design). Your task is to follow the design in the Figma link and implement it in the project.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## How to Contribute Using Git
+
+If you're new to Git and want to contribute to a project, it's important to follow best practices to ensure a smooth collaboration. One common approach is to avoid committing directly to the main or develop branch. Instead, you should create a new branch for your updates and then submit a pull request. Here's a step-by-step guide:
+
+## 1. Clone the Git Repository
+
+Start by cloning the Git repository to your local machine. This creates a local copy of the project that you can work on.
+
+```
+git clone <repository_url>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Replace `<repository_url>` with the URL of the Git repository you want to contribute to.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 2. Make Your Changes from the Develop Branch
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+It's a good practice to work from the `develop` branch, which is typically where ongoing development takes place.
 
-## Learn More
+```
+git switch develop
+```
 
-To learn more about Next.js, take a look at the following resources:
+This command switches to the `develop` branch.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 3. Create a New Branch for Your Update
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Before making changes, create a new branch for your updates. This branch should have a descriptive name related to the changes you plan to make.
 
-## Deploy on Vercel
+```
+git checkout -b your-branch-name
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Replace `your-branch-name` with a meaningful name for your branch.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 4. Make and Stage Your Changes
+
+Now, make your changes to the code or project as needed. After making changes, you should stage them for commit.
+
+```bash
+git add .
+```
+
+This command stages all the changes you made.
+
+## 5. Commit Your Changes
+
+Commit your changes with a descriptive message that explains what you did.
+
+```bash
+git commit -m "Your commit message"
+```
+
+Replace `"Your commit message"` with a concise and informative message about your changes.
+
+## 6. Push Your Branch to the Repository
+
+To share your changes with others and create a pull request, you need to push your branch to the remote repository.
+
+```bash
+git push origin your-branch-name
+```
+
+This command pushes your branch to the repository, making it available for others to review and merge into the main project.
+
+That's it! You've successfully contributed to the project by creating a branch, making changes, and submitting a pull request. Your changes can now be reviewed and integrated into the main codebase by the project maintainers.
+
+Happy contributing!
+
+
+Now, the README starts with the project's main goal, followed by the instructions on how to contribute using Git.
