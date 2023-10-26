@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main-container {
+  background-color: #fffaeb;
+  min-height: 100vh;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 249px;
+  padding-top: 32px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background: url('../public/assets/Clamor\ Logo\ 1.svg'), lightgray 50% / cover no-repeat;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+
+.brand-name {
+  color: #252b42;
+  font-family: 'Lexend Mega';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+}
+li:not(:last-child)  {
+    margin-right: 16px;   
+}
+a{
+    font-size: 18px;
+    font-weight: 400;
+    border-bottom: #252b42 1px solid;
+    padding: 4px 8px;
+    transition: all ease-in-out 0.4s;
+}
+a:hover{
+    transition: all ease-in-out 0.4s;
+    border: #252b42 1px solid;
+}
+
+.active{
+    border: #252b42 1px solid;
+}
