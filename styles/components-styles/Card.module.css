@@ -1,0 +1,59 @@
+.con{
+    display: flex;
+    justify-content: center;
+    padding: 0px 320px;
+    flex-wrap: wrap;
+    margin: 50px 0px;
+}
+
+.cardsCon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.conTitle{
+    font-family: 'Lexend Mega';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #130E01;
+    padding: 50px 0px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 20px;
+    gap: 10px;
+    width: 317px;
+    height: 305px;;
+    background: #FAF2DD;
+    box-shadow: 4px 6px 0px #000000;
+    margin-top: 9px;
+
+}
+
+.subTitle{
+    font-family: 'Lexend Mega';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #130E01;
+}
+
+.content{
+    font-family: 'Public Sans';
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    color: #130E01;
+    text-align: left;
+
+}
