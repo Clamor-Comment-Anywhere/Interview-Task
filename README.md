@@ -1,5 +1,5 @@
 
-# Goal: Implementing Landing Page Design
+# Goal: Testing gitlab clone
 
 The goal of this task is to implement a landing page design from Figma. You can find the design in [this Figma link](https://www.figma.com/file/RLLyYyRsth2grVPjAVLbCB/Website-Design?type=design&node-id=0-1&mode=design). Your task is to follow the design in the Figma link and implement it in the project.
 
