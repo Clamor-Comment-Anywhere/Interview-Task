@@ -6,7 +6,7 @@
 
 
 .main-container {
-  background-color: #fffaeb;
+  background-color: #fcfdfc ;
   min-height: 100vh;
 }
 .nav {
@@ -22,7 +22,7 @@
   height: 40px;
   background: url('../public/assets/Clamor\ Logo\ 1.svg'), lightgray 50% / cover no-repeat;
   cursor: pointer;
-  margin-right: 16px;
+  margin-right: 10px;
 }
 
 
@@ -33,18 +33,32 @@
   font-weight: 700;
   line-height: 32px;
   letter-spacing: 0.1px;
+  display: flex;
+  align-items: center;
 }
+
+.brand{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+
+.brand a:hover {
+  border: none;
+}
+
+
 li:not(:last-child)  {
     margin-right: 16px;   
 }
-a{
+.nav a{
     font-size: 18px;
     font-weight: 400;
-    border-bottom: #252b42 1px solid;
     padding: 4px 8px;
     transition: all ease-in-out 0.4s;
 }
-a:hover{
+.nav a:hover{
     transition: all ease-in-out 0.4s;
     border: #252b42 1px solid;
 }
