@@ -43,6 +43,8 @@ a{
     border-bottom: #252b42 1px solid;
     padding: 4px 8px;
     transition: all ease-in-out 0.4s;
+    text-decoration:  none !important;
+
 }
 a:hover{
     transition: all ease-in-out 0.4s;
@@ -51,4 +53,7 @@ a:hover{
 
 .active{
     border: #252b42 1px solid;
+}
+.no-underline{
+  text-decoration:  none !important;
 }

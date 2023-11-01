@@ -8,18 +8,28 @@ const Navbar = () => {
     console.log(pathname)
   return (
     <nav className="nav">
-      <div>
+      <div className="flex">
           <Image className="logo" src={logo} alt="Clamor Logo" />
         <h3 className="brand-name">Clamor</h3>
       </div>
       <ul className="flex">
         <li>
-          <Link href="/" className={pathname == '/' ? 'active' : ''}>
-            Home
+          <Link href="/">
+            Product
           </Link>
         </li>
         <li>
-          <Link href="/admin" className={pathname == '/admin' ? 'active' : ''}>
+          <Link href="/" >
+            Platforms
+          </Link>
+        </li>
+        <li>
+          <Link href="/">
+            Support
+          </Link>
+        </li>
+        <li>
+          <Link href="/admin">
             Admin
           </Link>
         </li>
